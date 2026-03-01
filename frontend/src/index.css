@@ -6,4 +6,6 @@ html{
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  background-color: #f6ead2;
+  box-sizing: border-box;
 }

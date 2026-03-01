@@ -1,0 +1,42 @@
+
+.header-text{
+    font-size: 2rem;
+}
+
+.store-header{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    background: #fefdfa;
+}
+
+.btn-section{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.btn{
+    border-radius: 25px;
+    font-size: 1.5rem;
+    padding: 1.3rem 1.5rem;
+    text-decoration: none;
+}
+
+.shop-btn{
+    background-color: black;
+    color: white;
+}
+
+.cart-btn{
+    border: rgb(209, 209, 209) 1px solid;
+    color: rgb(75, 75, 75);
+}
+
+.cart-amount{
+    background-color: #f5c46e;
+    border-radius: 25px;
+    padding: 8px;
+}
