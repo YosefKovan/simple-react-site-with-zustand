@@ -1,0 +1,29 @@
+
+.cart-item {
+    border-radius: 25px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+}
+
+.cart-item h3 {
+    color: #9a6b17;
+    font-size: 1.4rem;
+}
+
+.cart-item h2 {
+    font-size: 2rem;
+}
+
+.price {
+    font-size: 1.3rem;
+}
+
+.cart-item button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}

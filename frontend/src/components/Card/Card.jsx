@@ -1,16 +1,18 @@
 import "./Card.css";
 import useCart from "../../store/useCart";
 
-function Card({ id, name, price, category, description, image }) {
+function Card(props) {
+  
+  const { id, name, price, category, description, image } = props;
+
   const items = useCart((state) => state.items);
   const addItem = useCart((state) => state.addItem);
+  const removeItem = useCart((state) => state.removeItem);
 
-  function handleClick(id) {
-    if (!items.includes(id)) {
-      addItem(id);
-    }
-  }
+  
+  const inCart = items.find((item)=>String(item.id) === String(id))
 
+  
   return (
     <div className="card">
       <div className="card-header">
@@ -26,13 +28,18 @@ function Card({ id, name, price, category, description, image }) {
           <div className="price-section">
             <span className="price">${price}</span>
             <span className="cart-status">
-              {items.includes(id) ? "In cart" : "Not in cart"}
+              {inCart ? "In cart" : "Not in cart"}
             </span>
           </div>
           <div>
-            <button className="card-btn" onClick={() => handleClick(id)}>
+            {!inCart ? 
+            <button className="card-btn-add" onClick={() => addItem(props)}>
               Add To Cart
+            </button> : 
+            <button className="card-btn-remove" onClick={() => removeItem(props)}>
+              Remove from cart
             </button>
+            }
           </div>
         </div>
       </div>

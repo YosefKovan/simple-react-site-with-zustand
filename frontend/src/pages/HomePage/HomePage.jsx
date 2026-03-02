@@ -5,10 +5,7 @@ import Products from "../../components/Products/Products";
 function HomePage(){
 
     return(
-        <div className="home-page">
-            <Header/>
-            <Products/>
-        </div> 
+        <Products/>
     )
 }
 
