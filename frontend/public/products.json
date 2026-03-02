@@ -46,5 +46,125 @@
     "category": "Lifestyle",
     "description": "A lightweight bottle that is easy to carry between classes or work.",
     "image": "BOTTLE"
+  },
+  {
+    "id": 7,
+    "name": "Ceramic Mug",
+    "price": 14.25,
+    "category": "Kitchen",
+    "description": "A sturdy mug for coffee, tea, or whatever keeps the coding going.",
+    "image": "MUG"
+  },
+  {
+    "id": 8,
+    "name": "Mechanical Keyboard",
+    "price": 119.99,
+    "category": "Tech",
+    "description": "A compact keyboard with tactile switches and a soft white backlight.",
+    "image": "KEYS"
+  },
+  {
+    "id": 9,
+    "name": "Water Bottle",
+    "price": 18.75,
+    "category": "Lifestyle",
+    "description": "A lightweight bottle that is easy to carry between classes or work.",
+    "image": "BOTTLE"
+  },
+  {
+    "id": 10,
+    "name": "Ceramic Mug",
+    "price": 14.25,
+    "category": "Kitchen",
+    "description": "A sturdy mug for coffee, tea, or whatever keeps the coding going.",
+    "image": "MUG"
+  },
+  {
+    "id": 11,
+    "name": "Mechanical Keyboard",
+    "price": 119.99,
+    "category": "Tech",
+    "description": "A compact keyboard with tactile switches and a soft white backlight.",
+    "image": "KEYS"
+  },
+  {
+    "id": 12,
+    "name": "Water Bottle",
+    "price": 18.75,
+    "category": "Lifestyle",
+    "description": "A lightweight bottle that is easy to carry between classes or work.",
+    "image": "BOTTLE"
+  },
+  {
+    "id": 13,
+    "name": "Ceramic Mug",
+    "price": 14.25,
+    "category": "Kitchen",
+    "description": "A sturdy mug for coffee, tea, or whatever keeps the coding going.",
+    "image": "MUG"
+  },
+  {
+    "id": 14,
+    "name": "Mechanical Keyboard",
+    "price": 119.99,
+    "category": "Tech",
+    "description": "A compact keyboard with tactile switches and a soft white backlight.",
+    "image": "KEYS"
+  },
+  {
+    "id": 15,
+    "name": "Water Bottle",
+    "price": 18.75,
+    "category": "Lifestyle",
+    "description": "A lightweight bottle that is easy to carry between classes or work.",
+    "image": "BOTTLE"
+  },
+  {
+    "id": 16,
+    "name": "Ceramic Mug",
+    "price": 14.25,
+    "category": "Kitchen",
+    "description": "A sturdy mug for coffee, tea, or whatever keeps the coding going.",
+    "image": "MUG"
+  },
+  {
+    "id": 17,
+    "name": "Mechanical Keyboard",
+    "price": 119.99,
+    "category": "Tech",
+    "description": "A compact keyboard with tactile switches and a soft white backlight.",
+    "image": "KEYS"
+  },
+  {
+    "id": 18,
+    "name": "Water Bottle",
+    "price": 18.75,
+    "category": "Lifestyle",
+    "description": "A lightweight bottle that is easy to carry between classes or work.",
+    "image": "BOTTLE"
+  },
+  {
+    "id": 19,
+    "name": "Ceramic Mug",
+    "price": 14.25,
+    "category": "Kitchen",
+    "description": "A sturdy mug for coffee, tea, or whatever keeps the coding going.",
+    "image": "MUG"
+  },
+  {
+    "id": 20,
+    "name": "Mechanical Keyboard",
+    "price": 119.99,
+    "category": "Tech",
+    "description": "A compact keyboard with tactile switches and a soft white backlight.",
+    "image": "KEYS"
+  },
+  {
+    "id": 21,
+    "name": "Water Bottle",
+    "price": 18.75,
+    "category": "Lifestyle",
+    "description": "A lightweight bottle that is easy to carry between classes or work.",
+    "image": "BOTTLE"
   }
 ]

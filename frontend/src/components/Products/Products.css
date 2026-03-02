@@ -2,7 +2,9 @@
 .products-section{
     flex : 1;
     background-color: #fefdfa;
-    min-height: 0;
     border-radius: 25px;
     padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
